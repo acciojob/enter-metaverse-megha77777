@@ -1,5 +1,5 @@
 //your JS code here. If required.
-let para = document.getElementById("para");
+let status = document.getElementById("status");
 function changeText(){
-	para.innerText = "Entered Metaverse";
+	status.innerHTML = `<h1>Entered Metaverse</h1>`
 }
